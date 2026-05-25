@@ -61,6 +61,10 @@ Core operators that drive the signal enhancement framework:
 ## Data Dependencies
 
 ### Field Data (`Field_data/`)
+* `microDAS_data.mat` (Compressed) / `forgedAS_data.mat` / `jDAS_data.mat`
+
+> ⚠️ **CRITICAL NOTE ON `microDAS_data.mat`:** Due to GitHub's file size limitations, the `microDAS_data.mat` field dataset has been compressed into a standard zip archive (e.g., `microDAS_data.zip`). **Users must extract/unzip this file** inside the `Field_data/` directory before executing any associated field processing or plotting scripts in MATLAB.
+
 * `microDAS_data.mat`: High-density ambient and microseismic active records.
 * `forgedAS_data.mat`: Wellbore monitoring dataset from the Utah FORGE geothermal site.
 * `jDAS_data.mat`: Submarine dark fiber acoustic sensing profile.
